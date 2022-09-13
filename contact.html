@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--for charset-->
+        <meta charset="UTF-8">
+        <title>Demo App</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact.css">
+        <!--For reactiveness in different screen sizes-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="nav-inner-bar">
+                <h1>Demo App</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a id="selectedNavButton" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="input-box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required/>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required/>
+                </div>
+                <div class="input-box">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5"></textarea>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
