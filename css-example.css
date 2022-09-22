@@ -1,0 +1,26 @@
+/*This is for all divs, no matter what their class of id is*/
+div {
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+/*this is for html element that has class name "outer-box" since it has dot(.) in the beggining*/
+.outer-box {
+    background-color: #d3d3d3;
+}
+
+/*This is for all img no matter where they are*/
+img {
+    width: 100px;
+}
+
+/*this is for img inside html element that has class name "first-inner-box"*/
+.first-inner-box img {
+    width: 50%;
+}
+
+/*you can also write it like this. This says you want that style for every div inside .outer-box div*/
+.outer-box div {
+    border-radius: 5px;
+}
+
